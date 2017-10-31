@@ -2,34 +2,21 @@ h1 {
   margin-top: 20px;
 }
 
-#paintball {
-  max-width: 120%;
-  max-height: auto;
-}
-
-#placeholder {
-  max-width: 100%;
-  max-height: auto;
-}
-
-#placeholder4 {
-  max-width: 100%;
-  max-height: auto;
-  margin-top: 12%;
-}
-
-#sharma {
-  max-width: 100%;
-  max-height: auto;
-}
-
-#random {
-  max-width: 100%;
-  max-height: auto;
-}
-
 #intro {
   margin-top: 12%;
+}
+
+#paintball {
+  max-width: 100%;
+  max-height: auto;
+}
+
+#project1, #project2, #project3, #project4 {
+  max-width: 85%;
+  max-height: auto;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
 }
 
 hr {
