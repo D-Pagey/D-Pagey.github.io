@@ -6,9 +6,10 @@ h1 {
   margin-top: 12%;
 }
 
-#paintball {
-  max-width: 100%;
-  max-height: auto;
+#mainImg {
+  max-height: 500px;
+  max-width: 80%;
+
 }
 
 #project1, #project2, #project3, #project4 {
