@@ -15,9 +15,6 @@ h1 {
 #project1, #project2, #project3, #project4 {
   max-width: 85%;
   max-height: auto;
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
 }
 
 hr {
