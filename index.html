@@ -8,118 +8,75 @@
     <title>Pagey's Portfolio</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
   <body>
 
     <!-- Navbar -->
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="#intro">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
+    <nav class="navbar">
+      <ul class="navbar-items">
+        <li class="navbar-titles"><a href="#about" class="navbar-links">About</a></li>
+        <li class="navbar-titles"><a href="#projects" class="navbar-links">Projects</a></li>
+        <li class="navbar-titles"><a href="#contact" class="navbar-links">Contact</a></li>
+      </ul>
+    </nav>
 
-    <!-- Title -->
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="col">
-          <h1 class="display-3 text-center">Pagey's Portfolio</h1>
-        </div>
-      </div>
-    <br>
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">Pagey's Portfolio</h1>
+    </header>
 
     <!-- About -->
-      <div class="row">
-        <div class="col-2">
+    <section class="intro" id="about">
+        <div class="intro-message">
+          <p class="intro-message--text">Welcome to my FreeCodeCamp basic portfolio, this is the 2nd project in the Front End Developer Certification.</p>
+          <p class="intro-message--text2">When I'm not coding, I'm either playing tournament paintball, climbing or playing 5-a-side football.</p>
         </div>
-        <div class="col-4">
-          <p id="intro">Welcome to my FreeCodeCamp basic portfolio. I'm currently working through the Front End Development certificate with the ultimate goal of becoming a Front End Developer.</p>
-            <br>
-          <p>When I'm not coding, I used to play tournament paintball. Recently, I have been spending a lot of time bouldering, top-rope climbing and playing 5-a-side football.</p>
-        </div>
-        <div class="col-3">
-          <img class="rounded mx-auto d-block" alt="mainImg" id="mainImg">
-        </div>
-        <div class="col-3">
-        </div>
-      </div>
-    <br>
-      <hr></hr>
-    <br>
+        <span class="image-container"><img src="img/paintball.jpg" alt="paintballer" class="main-image" id="main-image"></span>
+    </section>
 
-    <!-- Portfolio -->
-    <h3 class="display-4 text-center" id="projects">Projects</h3>
-    <br>
+    <hr class="line">
 
-    <p class="text-center" id="intro2">Here is a small selection of the work I've done on my Web Dev journey:
-     </p>
+    <!-- Projects -->
+    <h3 class="projects-title" id="projects">Projects</h3>
+    <p class="projects-intro">Here is a small selection of the work I've done on my Web Dev journey:</p>
 
-    <br>
+    <main class="project-thumbnails">
+        <span class="thumbnail-container"><a href="https://codepen.io/Pagey/full/wrZRqR" target="_blank"><img src="img/Wikipedia.png" alt="Wikipedia Viewer" class="thumbnails"></a></span>
+        <span class="thumbnail-container"><a href="https://codepen.io/Pagey/full/GMgrwM" target="_blank"><img src="img/Weather.png" alt="Local Weather App" class="thumbnails"></a></span>
+        <span class="thumbnail-container"><a href="https://codepen.io/Pagey/full/eEXRZy/" target="_blank"><img src="img/Quoter.png" alt="Random Quote Machine" class="thumbnails"></a></span>
+        <span class="thumbnail-container"><a href="https://codepen.io/Pagey/full/GmOYdm/" target="_blank"><img src="img/Tribute.png" alt="Tribute Page" class="thumbnails"></a></span>
+    </main>
 
-    <div class="row">
-      <div class="col-2">
-      </div>
-      <div class="col-4">
-        <a href="https://codepen.io/Pagey/full/GmOYdm/" target="_blank"><img src="img/tribute.png" class="rounded mx-auto d-block" alt="Tribute Page" id="project1"></a>
-        <br>
-        <a href="https://codepen.io/Pagey/full/wrZRqR/" target="_blank"><img src="img/wikipedia.png" class="rounded mx-auto d-block" alt="Wikipedia Viewer" id="project3"></a>
-      </div>
-      <div class="col-4">
-      <a href="https://codepen.io/Pagey/full/eEXRZy/" target="_blank"><img src="img/quoter.png" class="rounded mx-auto d-block" alt="Random Quote" id="project2"></a>
-        <br>
-        <a href="https://codepen.io/Pagey/full/GMgrwM/" target="_blank"><img src="img/weather.png" class="rounded mx-auto d-block" alt="Weather App" id="project4"></a>
-      </div>
-      <div class="col-2">
-      </div>
-    </div>
-    <br>
-    <hr></hr>
-    <br>
+    <hr class="line">
 
     <!-- Contact Me -->
-
-    <h3 class="display-4 text-center" id="contact">Contact Me</h3>
-    <br>
-
-    <div class="row">
-      <div class="col-2">
-      </div>
-      <div class="col-4">
-        <p id="outro">If you would like to get in touch then feel free to use any of the following methods:</p>
-      </div>
-      <div class="col-3 text-center">
-        <a href="https://github.com/D-Pagey" target="_blank"><span class="fa fa-github-square fa-3x social" id="github"></span></a>
-        <a href="https://twitter.com/Pagey64" target="_blank"><span class="fa fa-twitter-square fa-3x social" id="twitter"></span></a>
-      </div>
-      <div class="col-3">
+    <!-- Contact Me -->
+    <h3 class="contact-me-title" id="contact">Contact Me</h3>
+    <div class="contact-me">
+      <p class="contact-me-text">Online profiles for if you would like to get in touch or see my code:</p>
+      <div class="icons">
+      <a href="https://twitter.com/Pagey64" target="_blank"><i class="fa fa-twitter-square fa-3x social"></i></a>
+      <a href="https://github.com/D-Pagey" target="_blank"><i class="fa fa-github-square fa-3x social"></i></a>
       </div>
     </div>
 
-    <br>
-    <hr></hr>
-    <br>
+    <hr class="line">
 
-    <p class="text-center">Written and coded by <a href="https://www.freecodecamp.org/d-pagey" target="_blank">Pagey</a></p>
-
-    </div>
+    <footer class="footer">
+      <p>Written and coded by <a href="https://www.freecodecamp.org/d-pagey" target="_blank" class="footer-link">Pagey</a></p>
+    </footer>
 
     <script type="text/javascript" src="scripts.js"></script>
 
   </body>
 
-  <!-- To Do:
-  1) Make mobile responsive
-  2) Crop photos to be same size?
-  3) Add some animation to slideshow
-  -->
+  <!-- TO DO:
+
+  Modal with project brief, user stories, technology used etc
+
+-->
 
 </html>
