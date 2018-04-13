@@ -1,0 +1,23 @@
+.navbar {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  height: 3em; }
+@media screen and (min-width: 760px) {
+  .navbar {
+    align-self: flex-end; } }
+
+.navbar-items {
+  align-items: center;
+  display: flex;
+  height: inherit;
+  padding: 0;
+  justify-content: flex-end; }
+
+.navbar-titles {
+  list-style-type: none;
+  margin: 1em; }
+
+.navbar-links {
+  color: #007bff;
+  text-decoration: none; }

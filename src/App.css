@@ -1,0 +1,17 @@
+.App {
+    display: flex;
+    flex-direction: column; }
+  
+  .line {
+    align-self: center;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    margin: 1em 0;
+    max-width: 600px;
+    width: 85%;
+  }
+  @media screen and (min-width: 760px) {
+    .line {
+      width: 60%;
+    } }
+  
