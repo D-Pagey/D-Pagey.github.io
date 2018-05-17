@@ -1,7 +1,11 @@
 ## Personal Website
 
-I've redesigned my portfolio from the initial design I used in the FreeCodeCamp 
-curriculum. I've built this website using React and Create-React-App, as well as 
-native HTML and CSS. 
+This is a complete redesign of my original portfolio that I initially made 
+during the FreeCodeCamp course. This project is live on my [website](https://www.danpage.co.uk).
 
-Here is a link to my [website](https://www.danpage.co.uk).
+I decided to go for as clean and minimalist look as possible, whilst trying to 
+get across the pertinent information. 
+
+This website was built using React and Create-React-App, no other frameworks or 
+libraries were used.
+
