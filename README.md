@@ -9,3 +9,8 @@ get across the pertinent information.
 This website was built using React and Create-React-App, no other frameworks or 
 libraries were used.
 
+**Improvements:**
+- Check that CSS complies with DRY principle e.g. all the copy.
+
+
+<!-- All of the code can be seen on Github with the Vanilla JS versions being in another branch. -->
