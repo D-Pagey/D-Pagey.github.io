@@ -1,0 +1,8 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-copy {
+    width: 275px;
+}

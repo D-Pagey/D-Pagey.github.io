@@ -1,0 +1,12 @@
+.skills-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-ranking {
+    width: 275px;
+}
+
+.skills-copy {
+    width: 275px;
+}

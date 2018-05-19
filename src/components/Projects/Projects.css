@@ -1,19 +1,16 @@
-.header {
+.project-container {
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.title {
+.subtitle {
+    margin: 20px 0 5px 0;
     text-align: center;
+    width: 100%;
 }
 
-.main-img {
+.thumbnail {
     border-radius: 5px;
-    width: 275px;
-}
-
-.intro-copy {
-    margin: 15px 0 0 0;
-    width: 275px;
+    margin-top: 20px;
 }

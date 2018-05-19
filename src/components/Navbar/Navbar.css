@@ -1,0 +1,18 @@
+.navbar {
+    margin-top: 15px;
+    width: 275px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-button {
+    border-radius: 5px;
+    font-size: 1.25rem;
+    margin: 5px 0;
+    padding: 10px 0;
+    width: 100%;
+}
