@@ -6,10 +6,8 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <ul className='nav-list'>
-                <li><button className='nav-button'>About</button></li>
-                <li><button className='nav-button'>Projects</button></li>
-                <li><button className='nav-button'>Skills</button></li>
-                <li><button className='nav-button'>Contact</button></li>
+                <li><a href='#projects'><button className='nav-button'>Projects</button></a></li>
+                <li><a href='#contact'><button className='nav-button'>Contact</button></a></li>
             </ul>
         </nav>
     )
