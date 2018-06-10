@@ -16,3 +16,9 @@
     height: initial;
     width: 280px;
 }
+
+@media (min-width: 374px) {
+    .thumbnail {
+        width: 300px;
+    }
+}

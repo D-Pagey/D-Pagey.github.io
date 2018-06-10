@@ -6,3 +6,21 @@
 .contact-copy {
     width: 275px;
 }
+
+.icons {
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.fa {
+    color: #007bff; 
+  }
+  
+  .fa-twitter-square,
+  .fa-github-square {
+    margin-right: .25em; 
+  }
+  
+  .social:hover {
+    transform: scale(1.1); 
+  }
