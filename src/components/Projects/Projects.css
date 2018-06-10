@@ -11,6 +11,8 @@
 }
 
 .thumbnail {
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 20px;
+    height: initial;
+    width: 280px;
 }

@@ -7,11 +7,12 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
         <Header />
-        <Navbar />
+        <Navbar />      
         <Projects />
         <Contact />
       </div>
