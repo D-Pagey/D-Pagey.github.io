@@ -22,3 +22,22 @@
         width: 300px;
     }
 }
+
+@media (min-width: 765px) {
+    .project-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 23px;
+        width: 100%;
+    }
+
+    .subtitle {
+        font-size: 37px;
+        font-weight: 400;
+    }
+
+    .thumbnail {
+        width: 350px;
+    }
+}

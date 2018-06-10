@@ -24,3 +24,22 @@
   .social:hover {
     transform: scale(1.1); 
   }
+
+  @media (min-width: 374px) {
+    .contact-copy {
+      font-size: 18px;
+      width: 290px;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .contact-copy {
+      width: 300px;
+    }
+  }
+
+  @media (min-width: 765px) {
+    .contact-container {
+      margin-top: 27px;
+    }
+  }
