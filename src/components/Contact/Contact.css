@@ -28,6 +28,7 @@
   @media (min-width: 374px) {
     .contact-copy {
       font-size: 18px;
+      margin: 10px 0 20px;
       width: 290px;
     }
   }
@@ -40,6 +41,6 @@
 
   @media (min-width: 765px) {
     .contact-container {
-      margin-top: 27px;
+      margin: 0;
     }
   }

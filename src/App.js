@@ -12,8 +12,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Navbar />      
+        <Navbar />    
+        <hr className='line' />  
         <Projects />
+        <hr className='line' />  
         <Contact />
       </div>
     );
