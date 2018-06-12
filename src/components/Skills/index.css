@@ -1,3 +1,20 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .svg {
   margin-top: 15px
+}
+
+.skills-copy {
+  margin: 0;
+  width: 89%;
+}
+
+.sheet-link,
+.sheet-link:visited {
+  color: blue;
+  text-decoration: none;
 }

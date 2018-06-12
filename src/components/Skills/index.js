@@ -36,7 +36,7 @@ export default class Skills extends Component {
         .attr('x', 10)
         .attr('y', (d, i) => i * 50)
         .attr('width', xScale)
-        .attr('height', 25)
+        .attr('height', 35)
         .style('fill', '#FFC18B')
 
     select(node)
@@ -46,7 +46,7 @@ export default class Skills extends Component {
         .append('text')
         .text((d) => d)
         .attr('x', 20)
-        .attr('y', (d, i) => i * 50 + 18); 
+        .attr('y', (d, i) => i * 50 + 22); 
 
     select(node)
         .append('g')
@@ -57,10 +57,17 @@ export default class Skills extends Component {
 
   render() {
     return (
-      <section className='skills'>
+      <section className='skills' id='skills'>
         <h2 className='subtitle'>Skills</h2>
         <svg ref={this.node} width={300} height={200} className='svg' />
+        <p className='skills-copy'>I initially began teaching myself to code in 
+        April 2017. Along the way I documented my experience and so you can see
+        all the learning resources that I used as well as the projects I built 
+        on this <a href='https://docs.google.com/spreadsheets/d/1yVy5vb2RABxIeS_hpSw88r6Q-BahlSUcRBpDHBRlFzg/edit?usp=sharing' 
+        target='_blank' className='sheet-link'>Google Sheet</a>.</p>
       </section>
     )
   }
 }
+
+// Add conditional styling depending on strength of tech.
