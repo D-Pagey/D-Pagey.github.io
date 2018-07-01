@@ -20,11 +20,10 @@ export default class Skills extends Component {
     const tech = skills.skills.map(element => element.name);
 
     const xScale = scaleLinear()
-      .domain([0, 9])
+      .domain([0, 10])
       .range([0, 275]);
     const xAxis = axisBottom(xScale)
-      .ticks(3.5)
-      .tickValues([3, 6, 9])
+      .ticks(4)
 
     select(node)
         .selectAll('rect')
@@ -91,5 +90,6 @@ export default class Skills extends Component {
  * change to words broken into 3 sections. comfortable, learning, confident
  * these sections take up a 1/3 of the x axis and are styled appropriately
  * https://medium.com/@caspg/responsive-chart-with-react-and-d3v4-afd717e57583
+ * https://codepen.io/idan/pen/xejuD?editors=0010
  * hover state on bar => tooltip
  */
