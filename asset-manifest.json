@@ -1,10 +1,12 @@
 {
   "main.css": "static/css/main.5a1334f4.css",
   "main.css.map": "static/css/main.5a1334f4.css.map",
-  "main.js": "static/js/main.7f04096a.js",
-  "main.js.map": "static/js/main.7f04096a.js.map",
+  "main.js": "static/js/main.3d99eef8.js",
+  "main.js.map": "static/js/main.3d99eef8.js.map",
   "static\\media\\Dogs.jpg": "static/media/Dogs.cdec54aa.jpg",
   "static\\media\\calculator.png": "static/media/calculator.1764c8c6.png",
+  "static\\media\\pomodoro.png": "static/media/pomodoro.4d1fb832.png",
+  "static\\media\\quoter.png": "static/media/quoter.007dfe68.png",
   "static\\media\\tictactoe.png": "static/media/tictactoe.8f16028e.png",
   "static\\media\\twitch.png": "static/media/twitch.8a96bfb2.png",
   "static\\media\\wikipedia.png": "static/media/wikipedia.27a69c53.png"
