@@ -79,8 +79,8 @@ export default class Skills extends Component {
         rel='noopener noreferrer'
         className='sheet-link'>Google Sheet</a>.</p>
         <p>In addition to these coding languages and 
-        frameworks, I use these tools on a daily basis: Webpack, Git, SCSS, Bash
-        as well as working with REST APIs.</p></div>
+        frameworks, I use the following tools on a daily basis: Webpack, Git, 
+        SCSS, Bash as well as working with REST APIs.</p></div>        
       </section>
     )
   }
