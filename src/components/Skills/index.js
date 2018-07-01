@@ -69,7 +69,8 @@ export default class Skills extends Component {
       <section className='skills' id='skills'>
         <h2 className='subtitle'>Tech Skills</h2>
         <svg ref={this.node} width={320} height={370} className='svg' />
-        <p className='skills-copy'>I began teaching myself to code in 
+        <div className='skills-copy'>
+        <p>I began teaching myself to code in 
         April 2017. Along the way I documented my experience and so you can see
         all the learning resources that I have used, as well as the projects that I 
         built, on this <a 
@@ -77,6 +78,9 @@ export default class Skills extends Component {
         target='_blank' 
         rel='noopener noreferrer'
         className='sheet-link'>Google Sheet</a>.</p>
+        <p>In addition to these coding languages and 
+        frameworks, I use these tools on a daily basis: Webpack, Git, SCSS, Bash
+        as well as working with REST APIs.</p></div>
       </section>
     )
   }
