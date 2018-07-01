@@ -5,6 +5,8 @@
   "homepage": "https://d-pagey.github.io",
   "dependencies": {
     "ajv": "^6.5.0",
+    "d3": "^5.4.0",
+    "npm": "^6.1.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4"
