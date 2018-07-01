@@ -1,6 +1,11 @@
 {
   "short_name": "Dan Page",
   "name": "Dan Page",
+  "icons": [
+    {
+      "src": "favicon.ico"
+    }
+  ],
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
