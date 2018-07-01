@@ -15,9 +15,9 @@ class App extends Component {
         <Header />
         <Navbar />    
         <hr className='line' />  
-        <Projects />
-        <hr className='line' />
         <Skills />
+        <hr className='line' />
+        <Projects />
         <hr className='line' />
         <Contact />
       </div>
