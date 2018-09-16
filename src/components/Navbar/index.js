@@ -1,20 +1,29 @@
 import React from 'react';
 
-import './index.css';
+import { NavbarWrapper, NavbarList, NavbarButton } from './styles';
 
 function Navbar() {
-    return (
-        <nav className='navbar'>
-            <ul className='nav-list'>
-                <li><a href='#projects'>
-                <button className='nav-button'>Projects</button></a></li>
-                <li><a href='#skills'>
-                <button className='nav-button'>Skills</button></a></li>
-                <li><a href='#contact'>
-                <button className='nav-button'>Contact</button></a></li>
-            </ul>
-        </nav>
-    )
+  return (
+    <NavbarWrapper>
+      <NavbarList>
+        <li>
+          <a href="#projects">
+            <NavbarButton>Projects</NavbarButton>
+          </a>
+        </li>
+        <li>
+          <a href="#skills">
+            <NavbarButton>Skills</NavbarButton>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <NavbarButton>Contact</NavbarButton>
+          </a>
+        </li>
+      </NavbarList>
+    </NavbarWrapper>
+  );
 }
 
 export default Navbar;

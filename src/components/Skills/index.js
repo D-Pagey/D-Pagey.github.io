@@ -3,8 +3,17 @@ import { scaleLinear } from 'd3-scale';
 import { select } from 'd3-selection';
 import { axisBottom } from 'd3-axis';
 
-import './index.css';
-import * as skills from './skills.js';
+import { 
+  SkillsWrapper,
+  SkillsSubtitle,
+  SkillsCopyWrapper,
+  SkillsLink
+} from './styles';
+import * as skills from './skills';
+
+const svgStyle = {
+  "margin-top": "15px"
+}
 
 export default class Skills extends Component {
 
@@ -65,22 +74,23 @@ export default class Skills extends Component {
 
   render() {
     return (
-      <section className='skills' id='skills'>
-        <h2 className='subtitle'>Tech Skills</h2>
-        <svg ref={this.node} width={320} height={370} className='svg' />
-        <div className='skills-copy'>
+      <SkillsWrapper id='skills'>
+        <SkillsSubtitle>Tech Skills</SkillsSubtitle>
+        <svg ref={this.node} width={320} height={370} style={svgStyle} />
+        <SkillsCopyWrapper>
         <p>I began teaching myself to code in 
         April 2017. Along the way I documented my experience and so you can see
         all the learning resources that I have used, as well as the projects that I 
-        built, on this <a 
+        built, on this <SkillsLink 
         href='https://docs.google.com/spreadsheets/d/1yVy5vb2RABxIeS_hpSw88r6Q-BahlSUcRBpDHBRlFzg/edit?usp=sharing' 
         target='_blank' 
         rel='noopener noreferrer'
-        className='sheet-link'>Google Sheet</a>.</p>
+        className='sheet-link'>Google Sheet</SkillsLink>.</p>
         <p>In addition to these coding languages and 
         frameworks, I use the following tools on a daily basis: Webpack, Git, 
-        SCSS, Bash as well as working with REST APIs.</p></div>        
-      </section>
+        SCSS, Bash as well as working with REST APIs.</p>
+        </SkillsCopyWrapper>        
+      </SkillsWrapper>
     )
   }
 }
