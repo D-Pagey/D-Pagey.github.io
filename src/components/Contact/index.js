@@ -1,26 +1,43 @@
 import React from 'react';
 
-import './index.css';
+import {
+  ContactWrapper,
+  ContactSubtitle,
+  ContactCopy,
+  IconWrapper,
+  Icon,
+} from './styles';
 
-function Contact() {
-    return (
-        <div className='contact-container' id='contact'>
-            <h2 className='subtitle'>Online Profiles</h2>
-            <p className='contact-copy'>Online profiles for if you would like to
-             get in touch or see my code:</p>
-            <div className="icons">
-                <a href="https://twitter.com/Pagey64" target="_blank" 
-                rel="noopener noreferrer">
-                <i className="fa fa-twitter-square fa-3x social"></i></a>
-                <a href="https://github.com/D-Pagey" target="_blank" 
-                rel="noopener noreferrer">
-                <i className="fa fa-github-square fa-3x social"></i></a>
-                <a href="https://www.linkedin.com/in/dan-page/" target="_blank" 
-                rel="noopener noreferrer">
-                <i className="fa fa-linkedin-square fa-3x social"></i></a>
-            </div>
-        </div>
-    )
+export default function Contact() {
+  return (
+    <ContactWrapper>
+      <ContactSubtitle>Online Profiles</ContactSubtitle>
+      <ContactCopy>
+        Online profiles for if you would like to get in touch or see my code:
+      </ContactCopy>
+      <IconWrapper>
+        <a
+          href="https://twitter.com/Pagey64"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon type="twitter" />
+        </a>
+        <a
+          href="https://github.com/D-Pagey"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon type="github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dan-page/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon type="linkedin" />
+        </a>
+      </IconWrapper>
+    </ContactWrapper>
+  );
 }
-
-export default Contact;

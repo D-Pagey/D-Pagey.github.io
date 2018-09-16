@@ -1,22 +1,30 @@
 import React from 'react';
 
-import './index.css';
-import heroImg from '../../imgs/Dogs.jpg';
+import {
+  HeaderWrapper,
+  HeroImage,
+  HeaderTextWrapper,
+  HeaderTitle,
+  IntroCopy,
+} from './styles';
 
 function Header() {
-    return (
-        <header className='header'>
-            <img src={heroImg} alt='Dan with dogs' 
-            className='main-img'/>
-            <div className='header-text'>
-                <h1 className='title'>Dan Page</h1>
-                <p className='intro-copy'>I'm a self taught Front End Developer 
-                focussing on building apps in React.</p>
-                <p className='intro-copy'>Below is a selection of the 10+ projects I
-                 have built in Vanilla JS and then rebuilt in React.</p> 
-            </div>
-        </header>
-    )
+  return (
+    <HeaderWrapper>
+      <HeroImage />
+      <HeaderTextWrapper>
+        <HeaderTitle>Dan Page</HeaderTitle>
+        <IntroCopy>
+          I'm a self taught Front End Developer focussing on building apps in
+          React.
+        </IntroCopy>
+        <IntroCopy>
+          Below is a selection of the 10+ projects I have built in Vanilla JS
+          and then rebuilt in React
+        </IntroCopy>
+      </HeaderTextWrapper>
+    </HeaderWrapper>
+  );
 }
 
 export default Header;
