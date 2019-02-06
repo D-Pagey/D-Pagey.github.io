@@ -9,22 +9,22 @@ export const skills = [
   },
   {
     name: 'CSS',
-    rating: 7,
+    rating: 8,
   },
   {
     name: 'React',
-    rating: 6,
+    rating: 8,
   },
   {
     name: 'Redux',
-    rating: 2,
-  },
-  {
-    name: 'D3',
-    rating: 3,
+    rating: 7,
   },
   {
     name: 'Jest',
+    rating: 5,
+  },
+  {
+    name: 'D3',
     rating: 2,
   },
 ];
